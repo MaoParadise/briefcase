@@ -1,0 +1,37 @@
+.navbar{
+    background-color: #f8f8f8;
+    border-bottom: 2px solid black;
+    padding: 15px 0 15px 0;
+    width: 75%;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0 8rem 0 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul li{
+    margin-right: 20px;
+}
+
+.navbar ul li span{
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 640px) {
+
+    .navbar{
+        width: 100%;
+    }
+
+    .navbar ul{
+        padding: 0;
+    }
+}
+    

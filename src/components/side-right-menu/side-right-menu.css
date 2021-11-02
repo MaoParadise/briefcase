@@ -1,0 +1,53 @@
+.side-right-menu{
+    background-color: #f8f8f8;
+    border-left: 2px solid black;
+    width: 25%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Source Code Pro', monospace;
+    z-index: 2;
+}
+
+.side-right-menu p:nth-child(3){
+    background-color: #000;
+    color: rgb(32, 179, 32);
+    text-align: justify;
+    margin: 2rem;
+    padding: 1.6em;
+    overflow: auto;
+}
+
+.side-right-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 15px;
+    right: 0;
+    left: 0;
+}
+
+.side-right-menu ul li{
+    margin: 0.5rem;
+}
+
+.side-right-menu ul li i{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+h1{
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+@media (max-width: 640px) {
+    .side-right-menu{
+        display: none;
+        height: auto;
+    }
+}
