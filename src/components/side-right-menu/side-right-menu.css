@@ -10,6 +10,14 @@
     z-index: 2;
 }
 
+.menu-open{
+    display: block;
+}
+
+.menu-close{
+    display: none;
+}
+
 .side-right-menu p:nth-child(3){
     background-color: #000;
     color: rgb(32, 179, 32);

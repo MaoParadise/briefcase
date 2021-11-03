@@ -2,7 +2,14 @@
     background-color: #f8f8f8;
     border-bottom: 2px solid black;
     padding: 15px 0 15px 0;
+}
+
+.nav-menu-open{
     width: 75%;
+}
+
+.nav-menu-close{
+    width: 100%;
 }
 
 .navbar ul{
@@ -25,6 +32,10 @@
 
 
 @media (max-width: 640px) {
+
+    .nav-menu-open{
+        width: 100%;
+    }
 
     .navbar{
         width: 100%;

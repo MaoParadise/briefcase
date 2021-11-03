@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import GlobalContext from '../../contexts/globalContext';
 import './side-right-menu.css';
 
 const SideRightMenu = () => {
+    
+    const { toggleMenu} = useContext(GlobalContext);
+    
     return (
-        <section className='side-right-menu'>
+        
+        <section className={`side-right-menu ${toggleMenu ? 'menu-open' : 'menu-close'}`}>
+            
             <h1> Hola </h1>
             <p> Me llamo Carlos </p>
             <p>
@@ -12,16 +18,16 @@ const SideRightMenu = () => {
             </p>
             <ul>
                 <li>
-                <i class="fab fa-facebook"></i>
+                <i className="fab fa-facebook"></i>
                 </li>
                 <li>
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
                 </li>
                 <li>
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
                 </li>
                 <li>
-                <i class="fas fa-at"></i>
+                <i className="fas fa-at"></i>
                 </li>
             </ul>
         </section>

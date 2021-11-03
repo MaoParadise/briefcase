@@ -1,3 +1,15 @@
-.container-main{
+
+.main-menu-open{
     width: 75%;
 }
+
+.main-menu-close{
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    .main-menu-open{
+        width: 100%;
+    }
+}
+    

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const MainSkills = () => {
+const NotFound = () => {
     return (
         <div>
-            skills
+            Not found
         </div>
     );
 }
 
-export default MainSkills;
+export default NotFound;
