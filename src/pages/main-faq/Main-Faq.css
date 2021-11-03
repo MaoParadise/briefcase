@@ -1,0 +1,55 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+}
+
+.faq h1{
+    margin: 0;
+}
+
+.where{
+    position: relative;
+    padding-right: 35%;
+    margin: 1rem 2rem 0.5rem 2rem;
+}
+
+.what{
+    position: relative;
+    padding-left: 35%;
+    margin: 1rem 2rem 0.5rem 2rem;
+}
+
+.what-hope{
+    position: relative;
+    padding-right: 35%;
+    margin: 1rem 2rem 0.5rem 2rem;
+}
+
+
+.where .divisor,
+.what-hope .divisor{
+    position: absolute;
+    top: 2.2rem;
+    border-bottom: black solid 4px;
+    width: 90%;
+}
+
+
+
+.what .divisor{
+    position: absolute;
+    top: 2.2rem;
+    right: 0;
+    border-bottom: black solid 4px;
+    width: 90%;
+}
+
+
+
+
+.where p,
+.what p,
+.what-hope p{
+    margin-top: 1.3rem;
+    text-align: justify;
+}
