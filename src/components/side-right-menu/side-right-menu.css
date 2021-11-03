@@ -10,6 +10,13 @@
     z-index: 2;
 }
 
+.logo{
+    border-radius: 50%;
+    border: 3px solid #000;
+    width: 160px;
+    height: 160px;
+}
+
 .menu-open{
     display: block;
 }
@@ -21,7 +28,7 @@
 .side-right-menu p:nth-child(3){
     background-color: #000;
     color: rgb(72, 228, 72, 0.75);
-    text-align: justify;
+    text-align: center;
     margin: 1rem;
     padding: 1rem;
     overflow: auto;

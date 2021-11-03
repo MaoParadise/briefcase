@@ -1,8 +1,11 @@
 .navbar{
-    position: relative;
+    position: fixed;
+    width: 97%;
     background-color: #f8f8f8;
     border-bottom: 2px solid black;
+    border-right: 2px solid black;
     padding: 15px 0 15px 0;
+    z-index: 2;
 }
 
 .nav-menu-open{

@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import GlobalContext from '../../contexts/globalContext';
 import useTyped from '../../hooks/useTyped';
+import logo from '../../assets/logo.png';
 
 import './side-right-menu.css';
 
@@ -14,7 +15,7 @@ const SideRightMenu = () => {
         <section className={`side-right-menu ${toggleMenu ? 'menu-open' : 'menu-close'}`}>
             
             <h1> Hola </h1>
-            <p> Me llamo Carlos </p>
+            <img class='logo' src={logo} alt="" />
             <p>
                 <p className='consoleRoot'>Root::[main] &gt; &gt; &gt; : </p>
                 <b ref={el}>
