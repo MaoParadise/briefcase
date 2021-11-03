@@ -18,6 +18,7 @@ function App() {
       <Particlesbackground />
       <GlobalContext.Provider value={{ toggleMenu, handleToggleMenu }}>
         <BrowserRouter>
+          
           <Main>
             <Switch>
               <Route exact path="/" component={MainFaq} />

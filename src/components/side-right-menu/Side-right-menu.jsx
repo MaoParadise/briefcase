@@ -1,10 +1,13 @@
 import React, { useContext } from 'react';
 import GlobalContext from '../../contexts/globalContext';
+import useTyped from '../../hooks/useTyped';
+
 import './side-right-menu.css';
 
 const SideRightMenu = () => {
     
     const { toggleMenu} = useContext(GlobalContext);
+    const { el,typed } = useTyped();
     
     return (
         
@@ -13,13 +16,12 @@ const SideRightMenu = () => {
             <h1> Hola </h1>
             <p> Me llamo Carlos </p>
             <p>
-               [main] &gt; &gt; &gt; :  <br /> 
-               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, ducimus, magnam et, animi blanditiis itaque velit incidunt dignissimos quo eum suscipit? Asperiores sapiente culpa magni velit quod veniam saepe impedit.
+                <p className='consoleRoot'>Root::[main] &gt; &gt; &gt; : </p>
+                <b ref={el}>
+                    { () => typed.current.start()}
+                </b>
             </p>
             <ul>
-                <li>
-                <i className="fab fa-facebook"></i>
-                </li>
                 <li>
                 <i className="fab fa-twitter"></i>
                 </li>

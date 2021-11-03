@@ -1,4 +1,5 @@
 .navbar{
+    position: relative;
     background-color: #f8f8f8;
     border-bottom: 2px solid black;
     padding: 15px 0 15px 0;
@@ -25,10 +26,21 @@
     margin-right: 20px;
 }
 
-.navbar ul li span{
+.navbar ul li span
+{
     cursor: pointer;
 }
 
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.toggle-menu{
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+}
 
 
 @media (max-width: 640px) {
@@ -42,7 +54,12 @@
     }
 
     .navbar ul{
+        margin-left: 15px;
         padding: 0;
+        justify-content: start;
+    }
+    .navbar ul li{
+        margin-right: 2.3rem;
     }
 }
     

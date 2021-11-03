@@ -7,6 +7,11 @@
     width: 100%;
 }
 
+.container-main{
+    overflow-y: auto;
+    height: 100vh;
+}
+
 @media (max-width: 640px) {
     .main-menu-open{
         width: 100%;
