@@ -12,7 +12,7 @@ const Header = () => {
         <nav className={`navbar ${toggleMenu ? 'nav-menu-open' : 'nav-menu-close'}`}>
             <ul>
                 <li><span className="material-icons-round">
-                    home
+                    <Link to='/'> home </Link>
                 </span></li>
 
                 <li><span className="material-icons-round">

@@ -1,0 +1,66 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.skills .clarification{
+    margin: 0 1.5rem 0 1.7rem;
+    text-align: justify;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    font-size: 0.8rem;
+}
+
+
+.skill-information{
+    display:flex;
+    flex-direction: row;
+    margin: 1.2rem 0 1.2rem 0;
+    
+}
+
+.skill-information .skill-container{
+    width: 80px;
+    text-align: center;
+}
+
+
+.skill-information .skill-logo{
+    font-size: 3rem;
+}
+
+.grafic-bar{
+    width: 100%;
+    margin: 8px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+
+
+.grafic-bar .percen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.grafic-bar .percen-black{
+    color: black;
+}
+
+.grafic-bar .bar{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    border-radius: 25px;
+}

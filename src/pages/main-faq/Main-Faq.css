@@ -1,25 +1,25 @@
-.faq{
+.faq {
     display: flex;
     flex-direction: column;
 }
 
-.faq h1{
+.faq h1 {
     margin: 0;
 }
 
-.where{
+.where {
     position: relative;
     padding-right: 35%;
     margin: 1rem 2rem 0.5rem 2rem;
 }
 
-.what{
+.what {
     position: relative;
     padding-left: 35%;
     margin: 1rem 2rem 0.5rem 2rem;
 }
 
-.what-hope{
+.what-hope {
     position: relative;
     padding-right: 35%;
     margin: 1rem 2rem 0.5rem 2rem;
@@ -27,7 +27,7 @@
 
 
 .where .divisor,
-.what-hope .divisor{
+.what-hope .divisor {
     position: absolute;
     top: 2.2rem;
     border-bottom: black solid 4px;
@@ -36,7 +36,7 @@
 
 
 
-.what .divisor{
+.what .divisor {
     position: absolute;
     top: 2.2rem;
     right: 0;
@@ -49,7 +49,16 @@
 
 .where p,
 .what p,
-.what-hope p{
+.what-hope p {
     margin-top: 1.3rem;
     text-align: justify;
+}
+
+@media (max-width: 640px) {
+    .where,
+    .what,
+    .what-hope {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }

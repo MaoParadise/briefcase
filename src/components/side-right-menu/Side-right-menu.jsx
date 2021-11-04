@@ -7,13 +7,14 @@ import './side-right-menu.css';
 
 const SideRightMenu = () => {
     
-    const { toggleMenu} = useContext(GlobalContext);
+    const { toggleMenu, handleToggleMenu } = useContext(GlobalContext);
     const { el,typed } = useTyped();
     
     return (
+        <React.Fragment>
+        <div onClick={() => handleToggleMenu() } className={`${toggleMenu ? 'back-side' : ''}`}></div>
         
         <section className={`side-right-menu ${toggleMenu ? 'menu-open' : 'menu-close'}`}>
-            
             <h1> Hola </h1>
             <img class='logo' src={logo} alt="" />
             <p>
@@ -33,7 +34,9 @@ const SideRightMenu = () => {
                 <i className="fas fa-at"></i>
                 </li>
             </ul>
-        </section>
+            </section>
+        </React.Fragment>
+        
     );
 }
 

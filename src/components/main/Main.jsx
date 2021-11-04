@@ -12,7 +12,7 @@ const Main = ({children}) => {
         <React.Fragment>
             <Header />
             <SideRightMenu />
-            <div className={`container-main ${toggleMenu ? 'main-menu-open' : 'main-menu-close'}`}>
+            <div className={`container-main ${toggleMenu ? 'main-menu-open back-overflow' : 'main-menu-close'}`}>
                 {children}
             </div> 
         </React.Fragment>         
