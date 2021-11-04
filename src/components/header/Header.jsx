@@ -26,7 +26,7 @@ const Header = () => {
                     collections
                 </span></li>
                 <span onClick={() => handleToggleMenu() } className="toggle-menu material-icons-round menu-toggle">
-                    menu
+                    menu 
                 </span>
             </ul>
         </nav>

@@ -4,13 +4,7 @@ import './Main-Skills.css'
 const MainSkills = () => {
     return (
         <div className='skills'>
-            <div className="clarification">
-                <p> En la presente seccion intento de alguna manera cuantificar mis experticia
-                    en las diversas tecnolgia con las que eh trabajo o aspiro hacerlo, siempre
-                    entendiendo que en la industria tecnologica jamas llegamos a conocer 100% de
-                    la mayoria de los temas. en tal sentido lo mejor que podemos hacer es tratar de acercanos
-                    al grado de perfeccion que nos permita desempeñar eficientemente nuestro trabajo </p>
-            </div>
+            
             <div className="skill-information">
                 <div className='skill-container'>
                     <span class="fab fa-react skill-logo"></span>
@@ -92,6 +86,13 @@ const MainSkills = () => {
                     <div style={{width: '70%'}} className="bar">
                     </div>
                 </div>
+            </div>
+            <div className="clarification">
+                <p> En la presente sección intento de alguna manera cuantificar mis experticias
+                    en las diversas tecnología con las que eh trabajo o aspiro hacerlo, siempre
+                    entendiendo que en una industria tan dinamica como la tecnológica jamás llegamos a conocer 100% de
+                    la mayoría de los temas en constante evolucion. En tal sentido lo mejor que podemos hacer es tratar de acercarnos
+                    al grado de perfección que nos permita desempeñar eficientemente nuestro trabajo. </p>
             </div>
 
         </div>

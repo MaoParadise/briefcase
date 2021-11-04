@@ -1,9 +1,9 @@
 .navbar{
     position: fixed;
     width: 97%;
-    background-color: #f8f8f8;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    background-color: #fff;
+    border-bottom: 0px solid black;
+    border-right: 0px solid black;
     padding: 15px 0 15px 0;
     z-index: 2;
 }
