@@ -11,22 +11,33 @@ const Header = () => {
     return (
         <nav className={`navbar ${toggleMenu ? 'nav-menu-open' : 'nav-menu-close'}`}>
             <ul>
-                <li><span className="material-icons-round" alt='Home'>
-                    <Link to='/'> home </Link>
-                </span></li>
-
-                <li><span className="material-icons-round">
-                    <Link to='/skills'> code </Link>
-                </span></li>
-                <li><span className="material-icons-round">
-                    source
-                </span>
+                <li>
+                    <Link to='/' alt='Home'>
+                        <p className="material-icons-round" > home </p>
+                        Home
+                    </Link> 
                 </li>
-                <li><span className="material-icons-round">
-                    collections
-                </span></li>
-                <span onClick={() => handleToggleMenu() } className="toggle-menu material-icons-round menu-toggle">
-                    menu 
+
+                <li>
+                    <Link to='/skills' alt='skills'>
+                        <p className="material-icons-round" > code </p>
+                        Habilidades
+                    </Link> 
+                </li>
+                <li>
+                    <Link to='/briefcase' alt='portafolio'>
+                        <p className="material-icons-round" > source </p>
+                        Portafolio
+                    </Link> 
+                </li>
+                <li>
+                    <Link to='/' alt='Home'>
+                        <p className="material-icons-round" > collections </p>
+                        Experiencia
+                    </Link> 
+                </li>
+                <span onClick={() => handleToggleMenu()} className="toggle-menu material-icons-round menu-toggle">
+                    menu
                 </span>
             </ul>
         </nav>

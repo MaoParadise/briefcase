@@ -31,10 +31,6 @@
 
 .navbar ul li{
     margin-right: 20px;
-}
-
-.navbar ul li span
-{
     cursor: pointer;
 }
 
@@ -43,7 +39,20 @@
 .toggle-menu{
     color: var(--color-quinary);
     text-decoration: none;
+    margin-right: 4px;
+}
 
+.navbar ul li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.navbar ul li p{
+    margin: 0;
+    padding: 0;
 }
 
 .navbar ul li a:hover,
@@ -78,6 +87,10 @@
     }
     .navbar ul li{
         margin-right: 2.3rem;
+    }
+
+    .navbar ul li a{
+        flex-direction: column;
     }
 }
     
