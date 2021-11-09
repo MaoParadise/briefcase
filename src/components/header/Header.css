@@ -1,19 +1,23 @@
 .navbar{
-    position: fixed;
+    top: 0.3rem;
+    left: 0.3rem;
+    border-radius: 25px;
+    position: absolute;
     width: 97%;
-    background-color: #fff;
-    border-bottom: 0px solid black;
-    border-right: 0px solid black;
+    background: var(--color-primary);
+    border-bottom: 0px solid var(--color-quaternary);
+    border-right: 0px solid var(--color-quaternary);
     padding: 15px 0 15px 0;
     z-index: 2;
+    transition: all 1s ease-in-out;
 }
 
 .nav-menu-open{
-    width: 75%;
+    width: 78%;
 }
 
 .nav-menu-close{
-    width: 100%;
+    width: 99%;
 }
 
 .navbar ul{
@@ -34,9 +38,17 @@
     cursor: pointer;
 }
 
-.navbar ul li a{
-    color: black;
+.navbar ul li a,
+.navbar ul li span,
+.toggle-menu{
+    color: var(--color-quinary);
     text-decoration: none;
+
+}
+
+.navbar ul li a:hover,
+.navbar ul li span:hover{
+    color: var(--color-quaternary);
 }
 
 .toggle-menu{
@@ -51,11 +63,12 @@
     
 
     .nav-menu-open{
-        width: 100%;
+        width: 99%;
     }
 
     .navbar{
-        width: 100%;
+        width: 99%;
+        position: absolute;
     }
 
     .navbar ul{

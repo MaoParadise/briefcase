@@ -1,5 +1,6 @@
 import React from 'react';
-import './Main-Skills.css'
+import './Main-Skills.css';
+import './AnimationsSkills.css';
 
 const MainSkills = () => {
     return (
@@ -10,8 +11,8 @@ const MainSkills = () => {
                     <span class="fab fa-react skill-logo"></span>
                 </div>
                 <div className="grafic-bar">
-                    <div className="percen"> 65% </div>
-                    <div style={{width: '65%'}} className="bar">
+                    <div className="percen"> 75% </div>
+                    <div style={{width: '75%'}} className="bar bar-react">
                     </div>
                 </div>
             </div>
@@ -22,8 +23,8 @@ const MainSkills = () => {
                 </div>
 
                 <div className="grafic-bar">
-                    <div className="percen"> 55% </div>
-                    <div style={{width: '55%'}} className="bar">
+                    <div className="percen"> 65% </div>
+                    <div style={{width: '65%'}} className="bar bar-angular">
                     </div>
                 </div>
             </div>
@@ -34,8 +35,8 @@ const MainSkills = () => {
                 </div>
 
                 <div className="grafic-bar">
-                    <div className="percen percen-black"> 40% </div>
-                    <div style={{width: '40%'}} className="bar">
+                    <div className="percen"> 55% </div>
+                    <div style={{width: '55%'}} className="bar bar-nodejs">
                     </div>
                 </div>
             </div>
@@ -47,7 +48,7 @@ const MainSkills = () => {
 
                 <div className="grafic-bar">
                     <div className="percen"> 90% </div>
-                    <div style={{width: '90%'}} className="bar">
+                    <div style={{width: '90%'}} className="bar bar-html">
                     </div>
                 </div>
             </div>
@@ -59,7 +60,7 @@ const MainSkills = () => {
 
                 <div className="grafic-bar">
                     <div className="percen"> 85% </div>
-                    <div style={{width: '85%'}} className="bar">
+                    <div style={{width: '85%'}} className="bar bar-css">
                     </div>
                 </div>
             </div>
@@ -70,8 +71,8 @@ const MainSkills = () => {
                 </div>
 
                 <div className="grafic-bar">
-                    <div className="percen"> 65% </div>
-                    <div style={{width: '65%'}} className="bar">
+                    <div className="percen"> 75% </div>
+                    <div style={{width: '75%'}} className="bar bar-bootstrap">
                     </div>
                 </div>
             </div>
@@ -83,7 +84,7 @@ const MainSkills = () => {
 
                 <div className="grafic-bar">
                     <div className="percen"> 70% </div>
-                    <div style={{width: '70%'}} className="bar">
+                    <div style={{width: '70%'}} className="bar bar-php">
                     </div>
                 </div>
             </div>

@@ -7,22 +7,49 @@
     margin: 0;
 }
 
+
+@keyframes leftToRight {
+    from {
+        left: -100%;
+        opacity: 25%;
+    }
+    to {
+        opacity: 100%;
+        left: 0%;
+    }
+}
+
+@keyframes rightToLeft {
+    from {
+        right: -100%;
+        opacity: 25%;
+    }
+    to {
+        opacity: 100%;
+        right: 0%;
+    }
+}
+
 .where {
     position: relative;
     padding-right: 35%;
     margin: 1rem 2rem 0.5rem 2rem;
+    animation: leftToRight 3s ;
 }
+
 
 .what {
     position: relative;
     padding-left: 35%;
     margin: 1rem 2rem 0.5rem 2rem;
+    animation: rightToLeft 3s ;
 }
 
 .what-hope {
     position: relative;
     padding-right: 35%;
     margin: 1rem 2rem 0.5rem 2rem;
+    animation: leftToRight 3s ;
 }
 
 
@@ -52,6 +79,7 @@
 .what-hope p {
     margin-top: 1.3rem;
     text-align: justify;
+    font-size: 1.5em;
 }
 
 @media (max-width: 640px) {

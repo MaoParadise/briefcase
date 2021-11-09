@@ -1,0 +1,99 @@
+@keyframes levelOfSkillReact {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes levelOfSkillAngular {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes levelOfSkillNode {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+@keyframes levelOfSkillHtml{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes levelOfSkillCss{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes levelOfSkillJs{
+
+}
+
+@keyframes levelOfSkillBoostrap{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+    
+@keyframes levelOfSkillPhp{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+
+.bar-react{
+    animation: levelOfSkillReact 3s;
+}
+
+.bar-angular{
+    animation: levelOfSkillAngular 3s;
+}
+
+.bar-nodejs{
+    animation: levelOfSkillNode 3s;
+}
+
+.bar-html{
+    animation: levelOfSkillHtml 3s;
+}
+
+.bar-css{
+    animation: levelOfSkillCss 3s;
+}
+
+.bar-javascript{
+    animation: levelOfSkillJs 3s;
+}
+
+.bar-bootstrap{
+    animation: levelOfSkillBoostrap 3s;
+}
+
+.bar-php{
+    animation: levelOfSkillPhp 3s;
+}

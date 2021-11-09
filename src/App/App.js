@@ -3,7 +3,6 @@ import { Main } from '../components/main/Main';
 import GlobalContext from '../contexts/globalContext';
 import { UseThemes } from '../hooks/useThemes';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Particlesbackground from '../assets/particlesBackground/particlesBackground';
 import '../styles/App.css';
 import MainFaq from '../pages/main-faq/Main-Faq';
 import MainSkills from '../pages/main-skills/Main-Skills';
@@ -15,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <Particlesbackground />
+      {/* <Particlesbackground /> */}
       <GlobalContext.Provider value={{ toggleMenu, handleToggleMenu }}>
         <BrowserRouter>
           

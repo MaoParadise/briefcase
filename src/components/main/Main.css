@@ -1,6 +1,6 @@
 
 .main-menu-open{
-    width: 75%;
+    width: 78%;
 }
 
 .main-menu-close{
@@ -9,6 +9,7 @@
 
 .container-main{
     padding-top: 72px;
+    transition: all 1s ease-in-out;
 }
 
 

@@ -13,7 +13,7 @@ const useTyped = () => {
     	strings: [`
                     console.getInformation(); <br />
                     <br />
-                    [#########################] ^1500 <br />
+                    [#####################] ^1500 <br />
                     <br />
                     Carlos Pasten Bravo. <br />
                     Desarrollador front-end. <br />
