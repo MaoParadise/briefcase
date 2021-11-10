@@ -31,7 +31,7 @@ const Header = () => {
                     </Link> 
                 </li>
                 <li>
-                    <Link to='/' alt='Home'>
+                    <Link to='/experience' alt='Home'>
                         <p className="material-icons-round" > collections </p>
                         Experiencia
                     </Link> 

@@ -9,7 +9,7 @@ const Briefcase = () => {
                     
                 </div>
                 <div className='project-information'>
-                    <h1> Project title </h1>
+                    <h2> Project title </h2>
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis pariatur consequatur, commodi culpa illum iusto recusandae! Modi, aspernatur omnis minima numquam aperiam fugiat
                     </p>
                 </div>
@@ -17,57 +17,7 @@ const Briefcase = () => {
 
                 </div>
             </div>
-            <div className='project-card'>
-                <div className="project-image">
-                    
-                </div>
-                <div className='project-information'>
-                    <h1> Project title </h1>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis pariatur consequatur, commodi culpa illum iusto recusandae! Modi, aspernatur omnis minima numquam aperiam fugiat
-                    </p>
-                </div>
-                <div className='project-buttons'>
-                    
-                </div>
-            </div>
-            <div className='project-card'>
-                <div className="project-image">
-                    
-                </div>
-                <div className='project-information'>
-                    <h1> Project title </h1>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis pariatur consequatur, commodi culpa illum iusto recusandae! Modi, aspernatur omnis minima numquam aperiam fugiat
-                    </p>
-                </div>
-                <div className='project-buttons'>
-                    
-                </div>
-            </div>
-            <div className='project-card'>
-                <div className="project-image">
-                    
-                </div>
-                <div className='project-information'>
-                    <h1> Project title </h1>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis pariatur consequatur, commodi culpa illum iusto recusandae! Modi, aspernatur omnis minima numquam aperiam fugiat
-                    </p>
-                </div>
-                <div className='project-buttons'>
-                    
-                </div>
-            </div><div className='project-card'>
-                <div className="project-image">
-                    
-                </div>
-                <div className='project-information'>
-                    <h1> Project title </h1>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis pariatur consequatur, commodi culpa illum iusto recusandae! Modi, aspernatur omnis minima numquam aperiam fugiat
-                    </p>
-                </div>
-                <div className='project-buttons'>
-                    
-                </div>
-            </div>
+            
         </div>
     );
 }
