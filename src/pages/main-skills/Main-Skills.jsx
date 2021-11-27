@@ -9,7 +9,7 @@ const MainSkills = () => {
 
     return (
         <div ref={refToScrollSkills} id='skills' className='skills'>
-            <h1> My Skills </h1>
+            <h1> Mis habilidades </h1>
             <div className="skill-information">
                 <div className='skill-container'>
                     <span class="fab fa-react skill-logo"></span>

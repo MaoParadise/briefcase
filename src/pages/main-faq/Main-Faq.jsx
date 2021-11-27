@@ -1,13 +1,11 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import './Main-Faq.css';
-import GlobalContext from '../../contexts/globalContext';
 
 const MainFaq = () => {
 
-    const { refToScrollFaq } = useContext(GlobalContext);
 
     return (
-        <div ref={refToScrollFaq} className='faq'>
+        <div  className='faq'>
             <article className='where'>
                 <h1>¿Que hago aqui?</h1>
                 <div className='divisor'></div>

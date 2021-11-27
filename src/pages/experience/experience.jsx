@@ -11,7 +11,7 @@ const Experience = () => {
 
     return (
         <div ref={refToScrollExperience} className='experience'>
-            <h1> Real Experiences </h1>
+            <h1> Experiencia real </h1>
             <div className="experience-card">
                 <div className="experience-image">
                     <img src={ refugioMolle } alt="imagen refugio el molle" />

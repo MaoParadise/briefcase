@@ -22,7 +22,7 @@ const Briefcase = () => {
 
     return (
         <div ref={refToScrollBriefcase} className='briefcase'>
-            <h1> Project than could be interesting </h1>
+            <h1> Projectos que podrian ser interesantes </h1>
             <div className='briefcase-cards'>
                 <PresentationCard />
                 

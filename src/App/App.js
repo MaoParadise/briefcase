@@ -36,13 +36,7 @@ function App() {
         <BrowserRouter>
           
           <Main>
-            <Switch>
-              <Route exact path="/" component={MainFaq} />
-              <Route exact path="/skills" component={MainSkills} />
-              <Route exact path="/briefcase" component={Briefcase} />
-              <Route exact path='/experience' component={Experience} />
-              <Route exact path='*' component={NotFound} />
-            </Switch>
+            <MainFaq />
             <MainSkills />
             <Briefcase />
             <Experience />

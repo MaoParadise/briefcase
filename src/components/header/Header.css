@@ -2,7 +2,7 @@
     top: 0;
     left: 0;
     border-radius: 0;
-    position: absolute;
+    position: fixed;
     width: 97%;
     background: var(--color-secondary-light);
     border-bottom: 0px solid var(--color-quaternary);
@@ -75,21 +75,23 @@
 
 @media (max-width: 640px) {
 
-    
-
     .nav-menu-open{
         width: 99%;
     }
 
     .navbar{
-        width: 99%;
-        position: absolute;
+        width: 100%;
+        position: fixed;
+        z-index: 40;
     }
 
     .navbar ul{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
         margin-left: 15px;
         padding: 0;
-        justify-content: start;
+        
     }
     .navbar ul li{
         margin-right: 2.3rem;

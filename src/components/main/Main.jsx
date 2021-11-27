@@ -6,13 +6,13 @@ import './Main.css';
 
 const Main = ({children}) => {
 
-    const { toggleMenu } = useContext(GlobalContext);
+    const { toggleMenu, refToScrollFaq} = useContext(GlobalContext);
 
     return (
         <React.Fragment>
             <Header />
             <SideRightMenu />
-            <div className={`container-main ${toggleMenu ? 'main-menu-open back-overflow' : 'main-menu-close'}`}>
+            <div ref={refToScrollFaq} className={`container-main ${toggleMenu ? 'main-menu-open back-overflow' : 'main-menu-close'}`}>
                 {children}
             </div> 
         </React.Fragment>         

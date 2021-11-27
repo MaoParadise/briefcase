@@ -83,8 +83,9 @@ h1{
     }
 
     .side-right-menu{
+        background: var(--color-secondary);
         position: absolute;
-        top: 89px;
+        top: 94px;
         width: 90%;
         height: 110vh;
         z-index: 35;
