@@ -1,0 +1,65 @@
+.presentation-card{
+    background-color: var(--color-secondary-dark);
+    position: relative;
+    margin-left: 5px;
+    border-radius: 25px;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: all 1.1s ease-in-out;
+}
+
+.presentation-menu-open{
+    width: 44%;
+}
+
+.presentation-menu-close{
+    width: 30%;
+}
+
+.desktop-and-drescription{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* 
+.presentation-card .smartphone{
+    display: none;
+} */
+
+.presentation-card  .desktop-and-drescription .description{
+    display: flex;
+    flex-direction: column;
+}
+
+.switchButton{
+    width: 33%;
+    margin: 0 0 1rem 1.2rem;
+    padding: 0.2rem 1rem 0.5rem 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom: 2px solid var(--color-primary);
+    border-left: 2px solid var(--color-primary);
+    border-right: 2px solid var(--color-primary);
+    border-top: none;
+    background-color: var(--color-primary);
+    cursor: pointer;
+    color: var(--color-quinary);
+    transition: all 0.15s ease-in-out;
+}
+
+.switchButton:hover{
+    background-color: var(--color-secondary-light);
+}
+
+
+@media (max-width: 640px) {
+    .presentation-card{
+        width: 80%;
+    }
+}

@@ -1,24 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;900&family=Source+Code+Pro:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&family=Source+Code+Pro:wght@300;500;700&display=swap');
 
 :root {
-  --color-primary: #baeaff;
-  --color-secondary: #61C9F7;
-  --color-secondary-dark: #3a9ee0;
-  --gradient-primary-270deg: linear-gradient(270deg,#baeaff, #61C9F7);
+  --color-primary: #e53e29;
+  --color-secondary: #262626;
+  --color-secondary-light: rgb(85, 85, 85,0.3);
+  --color-secondary-dark: #131313;
+  --color-secondary-inverted: rgb(85, 85, 85);
   --gradient-primary-180deg: linear-gradient(180deg, #baeaff, #61C9F7);
-  --color-tertiary: #60FBA3;
-  --color-quaternary: #fdf2e8;
-  --color-quinary: #1f1f1f;
+  --color-quaternary: #262626;
+  --color-quinary: #fff;
   
 }
 
 
 body {
   overflow-x: hidden;
-  background: var(--color-secondary);
+  background: rgb(38, 38, 38);
+  background-image: url('../assets/Images/back.png');
+  background-size: 210% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--color-quinary);
   margin: 0;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

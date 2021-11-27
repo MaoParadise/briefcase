@@ -1,6 +1,7 @@
 .faq {
     display: flex;
     flex-direction: column;
+    background: rgb(38, 38, 38,0.8);
 }
 
 .faq h1 {
@@ -57,7 +58,7 @@
 .what-hope .divisor {
     position: absolute;
     top: 2.2rem;
-    border-bottom: black solid 4px;
+    border-bottom: var(--color-primary) solid 4px;
     width: 90%;
 }
 
@@ -67,7 +68,7 @@
     position: absolute;
     top: 2.2rem;
     right: 0;
-    border-bottom: black solid 4px;
+    border-bottom: var(--color-primary) solid 4px;
     width: 90%;
 }
 
@@ -80,6 +81,12 @@
     margin-top: 1.3rem;
     text-align: justify;
     font-size: 1.5em;
+}
+
+.where p > i{
+    color: var(--color-primary);
+    font-style: normal;
+    font-weight: bold;
 }
 
 @media (max-width: 640px) {

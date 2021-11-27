@@ -1,4 +1,5 @@
 .skills{
+    background: var(--color-secondary-inverted);
     display: flex;
     flex-direction: column;
     padding-right: 2.5rem;
@@ -35,7 +36,7 @@
     width: 100%;
     margin: 8px;
     position: relative; 
-    background: var(--color-quaternary);
+    background: var(--color-secondary-light);
     border-radius: 25px;
 }
 
@@ -60,7 +61,7 @@
 }
 
 .grafic-bar .bar{
-    background: var(--color-quinary);
+    background: var(--color-primary);
     width: 100%;
     height: 32px;
     border-radius: 25px;

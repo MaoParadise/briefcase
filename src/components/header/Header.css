@@ -1,10 +1,10 @@
 .navbar{
-    top: 0.3rem;
-    left: 0.3rem;
-    border-radius: 25px;
+    top: 0;
+    left: 0;
+    border-radius: 0;
     position: absolute;
     width: 97%;
-    background: var(--color-primary);
+    background: var(--color-secondary-light);
     border-bottom: 0px solid var(--color-quaternary);
     border-right: 0px solid var(--color-quaternary);
     padding: 15px 0 15px 0;
@@ -17,7 +17,7 @@
 }
 
 .nav-menu-close{
-    width: 99%;
+    width: 100%;
 }
 
 .navbar ul{
@@ -40,9 +40,13 @@
     color: var(--color-quinary);
     text-decoration: none;
     margin-right: 4px;
+    padding: 0 4px 0 4px;
+    border: transparent solid 4px;
+    transition: all 0.3s;
 }
 
-.navbar ul li a{
+.navbar ul li a,
+.navbar ul li span{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,7 +61,9 @@
 
 .navbar ul li a:hover,
 .navbar ul li span:hover{
-    color: var(--color-quaternary);
+    border: var(--color-primary) solid 4px;
+    border-radius: 1.2rem;
+    color: var(--color-quinary);
 }
 
 .toggle-menu{

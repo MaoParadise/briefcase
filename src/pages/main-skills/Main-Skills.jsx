@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Main-Skills.css';
 import './AnimationsSkills.css';
+import GlobalContext from '../../contexts/globalContext';
 
 const MainSkills = () => {
+
+    const { refToScrollSkills } = useContext(GlobalContext);
+
     return (
-        <div className='skills'>
-            
+        <div ref={refToScrollSkills} id='skills' className='skills'>
+            <h1> My Skills </h1>
             <div className="skill-information">
                 <div className='skill-container'>
                     <span class="fab fa-react skill-logo"></span>

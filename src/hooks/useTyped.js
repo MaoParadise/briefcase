@@ -38,25 +38,6 @@ const useTyped = () => {
       el,
       typed
     };
-
-//   return (
-//       {
-//           typed
-//       }
-//     // <div className="wrap">
-//     //   <h1>Typed.js</h1>
-
-//     //   <div className="type-wrap">
-//     //     <span style={{ whiteSpace: 'pre' }} ref={el} />
-//     //   </div>
-
-//     //   <button onClick={() => typed.current.toggle()}>Toggle</button>
-//     //   <button onClick={() => typed.current.start()}>Start</button>
-//     //   <button onClick={() => typed.current.stop()}>Stop</button>
-//     //   <button onClick={() => typed.current.reset()}>Reset</button>
-//     //   <button onClick={() => typed.current.destroy()}>Destroy</button>
-//     // </div>
-//   );
 }
 
 export default useTyped;

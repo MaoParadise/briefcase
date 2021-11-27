@@ -1,0 +1,48 @@
+.desktop{
+    position: relative;
+    background: rgb(37,37,37);
+    background: linear-gradient(157deg, rgba(37,37,37,1) 0%, rgba(37,37,37,1) 44%, rgba(0,0,0,1) 100%);
+    height: 280px;
+    width: 98%;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: #ccc solid 3px;
+    border-top: #ccc solid 3px;
+    border-right: #838383 solid 3px;
+    border-bottom: #838383 solid 3px;
+    -webkit-box-shadow: 0px -1px 29px -16px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px -1px 29px -16px rgba(0,0,0,0.61);
+    box-shadow: 0px -1px 29px -16px rgba(0,0,0,0.61);
+}
+
+
+.screen-desktop{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 380px;
+    width: 98%;
+    border-radius: 1.5rem;
+    margin: 10px;
+}
+
+.image-screen-desktop{
+    position: absolute;
+    right: 0;
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.screen-glass-desktop{
+    position: absolute;
+    background: linear-gradient(125deg,rgba(218, 218, 218, 0.5) 0%,rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5rem;
+    z-index: 2;
+}

@@ -1,15 +1,21 @@
-import React from 'react';
-import './Main-Faq.css'
+import React, {useContext} from 'react';
+import './Main-Faq.css';
+import GlobalContext from '../../contexts/globalContext';
 
 const MainFaq = () => {
+
+    const { refToScrollFaq } = useContext(GlobalContext);
+
     return (
-        <div className='faq'>
-            <h1> FAQ </h1>
+        <div ref={refToScrollFaq} className='faq'>
             <article className='where'>
-                <h1>¿Donde Estoy?</h1>
+                <h1>¿Que hago aqui?</h1>
                 <div className='divisor'></div>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio dolores, aspernatur atque fuga architecto consectetur, magnam iste est ipsum magni nostrum omnis eaque temporibus distinctio obcaecati voluptas consequuntur autem? </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore autem, rem distinctio aut id voluptatum? Voluptas eaque modi, assumenda ab eveniet laboriosam nobis nemo aliquam ut! Dolore officiis impedit aliquid.</p>
+                <p> Bienvenido, <i>¡NO ENTRES EN PANICO!</i>, si haz llegado aqui es por algo y espero no decepcionarte en tu busqueda. </p>
+                <p> Mi nombre es <i>Carlos Andrés Pastén Bravo</i>, Analista Programador y Desarrollador Web, esta es mi sitio, el lugar que funge
+                    como compendio de todo lo que necesitas saber sobre mi trabajo y mi vida. si lo que vez te agrada y quieres contactarme en
+                    la esquina inferior derecha encontraras mis medios de contacto.
+                </p>
             </article>
 
 
@@ -21,12 +27,12 @@ const MainFaq = () => {
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione officia non cum eum exercitationem quisquam dignissimos, recusandae quaerat tenetur impedit libero sequi? At id laborum eaque, eveniet ratione pariatur! Ratione.</p>
             </article>
 
-            <article className='what-hope'>
+            {/* <article className='what-hope'>
                 <div className='divisor'></div>
                 <h1> ¿Que espero coseguir? </h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsa, tempore quas assumenda sunt voluptates deleniti alias et possimus ullam repellendus neque explicabo in beatae repudiandae? Minima, commodi. Adipisci, nesciunt!</p>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis expedita iusto quibusdam dicta magnam veniam recusandae quos, dignissimos soluta laudantium vel magni aspernatur at suscipit! Necessitatibus sunt ut perferendis maiores?</p>
-            </article>
+            </article> */}
         </div>
     );
 }

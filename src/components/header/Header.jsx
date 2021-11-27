@@ -1,40 +1,39 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
 import GlobalContext from '../../contexts/globalContext';
 import './Header.css';
 
 const Header = () => {
 
-    const { toggleMenu, handleToggleMenu } = useContext(GlobalContext);
+    const { toggleMenu, handleToggleMenu, executeScroll } = useContext(GlobalContext);
 
 
     return (
         <nav className={`navbar ${toggleMenu ? 'nav-menu-open' : 'nav-menu-close'}`}>
             <ul>
                 <li>
-                    <Link to='/' alt='Home'>
+                    <span onClick={() => executeScroll('faq')} alt='Home'>
                         <p className="material-icons-round" > home </p>
                         Home
-                    </Link> 
+                    </span> 
                 </li>
 
                 <li>
-                    <Link to='/skills' alt='skills'>
+                    <span onClick={() => executeScroll('skills')} alt='skills'>
                         <p className="material-icons-round" > code </p>
                         Habilidades
-                    </Link> 
+                    </span> 
                 </li>
                 <li>
-                    <Link to='/briefcase' alt='portafolio'>
+                    <span onClick={() => executeScroll('briefcase')} alt='portafolio'>
                         <p className="material-icons-round" > source </p>
                         Portafolio
-                    </Link> 
+                    </span> 
                 </li>
                 <li>
-                    <Link to='/experience' alt='Home'>
+                    <span onClick={() => executeScroll('experience')} alt='Experiences'>
                         <p className="material-icons-round" > collections </p>
                         Experiencia
-                    </Link> 
+                    </span> 
                 </li>
                 <span onClick={() => handleToggleMenu()} className="toggle-menu material-icons-round menu-toggle">
                     menu

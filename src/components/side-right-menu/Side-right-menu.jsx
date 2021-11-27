@@ -15,7 +15,7 @@ const SideRightMenu = () => {
         <div onClick={() => handleToggleMenu() } className={`${toggleMenu ? 'back-side' : ''}`}></div>
         
         <section className={`side-right-menu ${toggleMenu ? 'menu-open' : 'menu-close'}`}>
-            <h1> Hola </h1>
+            <h1> Bienvenido </h1>
             <img class='logo' src={logo} alt="" />
             <p>
                 <p className='consoleRoot'>Root::[main] &gt; &gt; &gt; : </p>

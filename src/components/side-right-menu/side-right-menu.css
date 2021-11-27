@@ -1,12 +1,12 @@
 .side-right-menu{
-    background: var(--color-secondary);
+    background: var(--color-secondary-light);
     width: 22%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     font-family: 'Source Code Pro', monospace;
-    z-index: 1;
+    z-index: 35;
     transition: all 1.5s ease-in-out;
 }
 
@@ -31,7 +31,7 @@
     text-align: center;
     margin: 1rem;
     padding: 1rem;
-    overflow: auto;
+    overflow: hidden;
     height: 222px;
 }
 
@@ -68,6 +68,13 @@ h1{
 
 @media (max-width: 640px) {
 
+    .menu-close{
+        opacity: 0;
+        width: 0;
+        z-index: -5;
+        display: none;
+    }
+
     .back-side{
         background-color: rgb(0, 0, 0,0.7);
         width: 100%;
@@ -80,7 +87,7 @@ h1{
         top: 89px;
         width: 90%;
         height: 110vh;
-        z-index: 1;
+        z-index: 35;
         border-bottom: 4px solid black;
     }
 }

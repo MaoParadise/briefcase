@@ -12,12 +12,27 @@ import Experience from '../pages/experience/experience';
 
 function App() {
 
-  const { toggleMenu, handleToggleMenu } = UseThemes();
+  const { toggleMenu,
+          handleToggleMenu,
+          executeScroll,
+          refToScrollSkills,
+          refToScrollFaq,
+          refToScrollExperience,
+          refToScrollBriefcase
+  } = UseThemes();
 
   return (
     <div className="App">
       {/* <Particlesbackground /> */}
-      <GlobalContext.Provider value={{ toggleMenu, handleToggleMenu }}>
+      <GlobalContext.Provider
+        value={{  toggleMenu,
+                  handleToggleMenu,
+                  executeScroll,
+                  refToScrollSkills,
+                  refToScrollFaq,
+                  refToScrollExperience,
+                  refToScrollBriefcase
+              }}>
         <BrowserRouter>
           
           <Main>
@@ -28,7 +43,12 @@ function App() {
               <Route exact path='/experience' component={Experience} />
               <Route exact path='*' component={NotFound} />
             </Switch>
+            <MainSkills />
+            <Briefcase />
+            <Experience />
           </Main>
+            
+          
         </BrowserRouter>
       </GlobalContext.Provider>
     </div>
