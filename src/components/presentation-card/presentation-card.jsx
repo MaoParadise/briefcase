@@ -57,7 +57,7 @@ const PresentationCard = (props) => {
                 :  ''
             }
             <div className="description">
-                <button className='switchButton' onClick={() => handleVersion()} > switch to movil </button>
+                <button className='switchButton' onClick={() => handleVersion()} >  { (version === 'desktop')? 'switch to mobile' : 'switch to desktop'} </button>
                     {(props.props) ?
                          <h4> { props.props.title } </h4>
                         : ''

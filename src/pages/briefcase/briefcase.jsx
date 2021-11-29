@@ -6,6 +6,8 @@ import blackListMovile from '../../assets/Images/blacklist-lol/movil-version1.pn
 import blackListDesktop from '../../assets/Images/blacklist-lol/desktop-version1.png';
 import toDoMovile from '../../assets/Images/todos/movil-version1.png';
 import toDoDesktop from '../../assets/Images/todos/desktop-version1.png';
+import rickAndMortyMovile from '../../assets/Images/RickAndMorty/movil-version1.png';
+import rickAndMortyDesktop from '../../assets/Images/RickAndMorty/desktop-version1.png';
 
 
 // eslint-disable-next-line no-lone-blocks
@@ -50,7 +52,16 @@ const Briefcase = () => {
                     }
                 />
 
-                <PresentationCard />
+                <PresentationCard
+                    props={
+                        {
+                            title: 'My personal BlackList of LOL', 
+                            description: 'Usando la API de RIOT GAME genere una lista con la gente del servidor de LatinoAmerica Sur que no desearia encontrarme, incluyendo un nivel de toxicidad',
+                            imageDesktop: rickAndMortyDesktop,
+                            imageMovile: rickAndMortyMovile,
+                        }
+                    }       
+                />
 
                 <PresentationCard />
 
