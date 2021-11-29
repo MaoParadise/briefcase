@@ -3,15 +3,15 @@ import './presentation-card.css';
 import './cardStyles/desktop.css';
 import './cardStyles/smartphone.css';
 import GlobalContext from '../../contexts/globalContext';
-import blackListMovile from '../../assets/Images/blacklist-lol/movil-version1.png';
-import blackListDesktop from '../../assets/Images/blacklist-lol/desktop-version1.png';
+import defaultImageMovil from '../../assets/Images/blacklist-lol/movil-version1.png';
+import defaultImageDesktop from '../../assets/Images/blacklist-lol/desktop-version1.png';
 
 
-const PresentationCard = () => {
 
+const PresentationCard = (props) => {
+    
     const { toggleMenu } = useContext(GlobalContext);
     const [version, setVersion] = useState('desktop');
-
     const handleVersion = () => {
         if (version === 'desktop') {
             setVersion('smartphone');
@@ -31,7 +31,7 @@ const PresentationCard = () => {
 
                 <div className="screen">
                     <div className="screen-glass"></div>
-                    <img className="image-screen" src={blackListMovile} alt="" />
+                    <img className="image-screen" src={(props.props) ? props.props.imageMovile : defaultImageMovil} alt="" />
                 </div>
                 <div className="buttons">
                     <i className="fas fa-chevron-left"></i>
@@ -50,7 +50,7 @@ const PresentationCard = () => {
                 </div>
                 <div class="screen-desktop">
                     <div class="screen-glass-desktop"></div>
-                    <img class="image-screen-desktop" src={blackListDesktop} alt="" />
+                    <img class="image-screen-desktop" src={(props.props) ? props.props.imageDesktop : defaultImageDesktop} alt="" />
                 </div>
                 
                 </div>
@@ -58,7 +58,15 @@ const PresentationCard = () => {
             }
             <div className="description">
                 <button className='switchButton' onClick={() => handleVersion()} > switch to movil </button>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. At ab a voluptate repudiandae, pariatur dolores vero, tempore minus tempora temporibus consequuntur molestias laboriosam quibusdam ipsum sed iusto dolorem repellendus. Eligendi.
+                    {(props.props) ?
+                         <h4> { props.props.title } </h4>
+                        : ''
+                    }
+                    {(props.props) ?
+                         props.props.description
+                        : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. At ab a voluptate repudiandae, pariatur dolores vero, tempore minus tempora temporibus consequuntur molestias laboriosam quibusdam ipsum sed iusto dolorem repellendus. Eligendi.'
+                    }
+
             </div>
             </div>
             

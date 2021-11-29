@@ -37,6 +37,13 @@
     flex-direction: column;
 }
 
+.presentation-card .desktop-and-drescription .description h4{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+}
+
 .switchButton{
     width: 33%;
     margin: 0 0 1rem 1.2rem;
