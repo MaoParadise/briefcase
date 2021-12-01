@@ -2,29 +2,26 @@ import React, { useContext } from 'react';
 import PresentationCard from '../../components/presentation-card/presentation-card';
 import './briefcase.css';
 import GlobalContext from '../../contexts/globalContext';
-import blackListMovile from '../../assets/Images/blacklist-lol/movil-version1.png';
+import blackListMobile from '../../assets/Images/blacklist-lol/movil-version1.png';
 import blackListDesktop from '../../assets/Images/blacklist-lol/desktop-version1.png';
-import toDoMovile from '../../assets/Images/todos/movil-version1.png';
+import toDoMobile from '../../assets/Images/todos/movil-version1.png';
 import toDoDesktop from '../../assets/Images/todos/desktop-version1.png';
-import rickAndMortyMovile from '../../assets/Images/RickAndMorty/movil-version1.png';
+import rickAndMortyMobile from '../../assets/Images/RickAndMorty/movil-version1.png';
 import rickAndMortyDesktop from '../../assets/Images/RickAndMorty/desktop-version1.png';
+import newMobile from '../../assets/Images/news/movil-version1.png';
+import newDesktop from '../../assets/Images/news/desktop-version1.png';
 
 
-// eslint-disable-next-line no-lone-blocks
-{
-    /*  
-        sitio de noticias
-        carrito de compras
-        el sitio todos
-        el sitio de criptomonedas
-        la black list de lol 
 
-    */
-}
 
 const Briefcase = () => {
 
     const { refToScrollBriefcase } = useContext(GlobalContext);
+    const angular = 'fab fa-angular';
+    const react = 'fab fa-react';
+    const node = 'fab fa-node-js';
+    const javascript = 'fab fa-js';
+    const bootstrap = 'fab fa-bootstrap';
 
     return (
         <div ref={refToScrollBriefcase} className='briefcase'>
@@ -36,7 +33,12 @@ const Briefcase = () => {
                             title: 'My personal BlackList of LOL', 
                             description: 'Usando la API de RIOT GAME genere una lista con la gente del servidor de LatinoAmerica Sur que no desearia encontrarme, incluyendo un nivel de toxicidad',
                             imageDesktop: blackListDesktop,
-                            imageMovile: blackListMovile,
+                            imageMovile: blackListMobile,
+                            tecnologies: [react, javascript],
+                            urls: {
+                                repository : 'https://github.com/MaoParadise/my-BlackList',
+                                site : 'https://www.google.com/'
+                            }
                         }
                     }
                 />
@@ -44,26 +46,52 @@ const Briefcase = () => {
                 <PresentationCard
                     props={
                         {
-                            title: 'My personal BlackList of LOL', 
-                            description: 'Usando la API de RIOT GAME genere una lista con la gente del servidor de LatinoAmerica Sur que no desearia encontrarme, incluyendo un nivel de toxicidad',
-                            imageDesktop: toDoDesktop,
-                            imageMovile: toDoMovile,
+                            title: 'Twenty Rick and Morty Characters', 
+                            description: 'Una SPA que muestra los personajes de Rick y Morty, con sus respectivos datos, en una lista de 20 personajes',
+                            imageDesktop: rickAndMortyDesktop,
+                            imageMovile: rickAndMortyMobile,
+                            tecnologies: [react, javascript],
+                            urls: {
+                                repository : 'https://github.com/MaoParadise/RickAndMortyCharacters',
+                                site : 'https://www.google.com/'
+                            }
                         }
                     }
                 />
 
                 <PresentationCard
+                   props={
+                    {
+                        title: 'Proyecto NeoLoot', 
+                        description: 'Un proyecto personal de un sitio de tecnologia y videojuegos, que consiste en el frontend, backend y una base de datos hecha en mysql jamas llegue a lanzarla por temas personales pero me siempre me senti orgulloso de lo aprendido y el resultado final',
+                        imageDesktop: newDesktop,
+                        imageMovile: newMobile,
+                        tecnologies: [angular, node, bootstrap],
+                        urls: {
+                            repository : 'https://github.com/MaoParadise/new-site-frontend',
+                            site : 'https://www.google.com/'
+                        }
+                    }
+                } 
+                />
+
+                <PresentationCard
                     props={
                         {
-                            title: 'My personal BlackList of LOL', 
-                            description: 'Usando la API de RIOT GAME genere una lista con la gente del servidor de LatinoAmerica Sur que no desearia encontrarme, incluyendo un nivel de toxicidad',
-                            imageDesktop: rickAndMortyDesktop,
-                            imageMovile: rickAndMortyMovile,
+                            title: "TO DO's", 
+                            description: 'Una sencilla SPA para guardar las cosas que quedan por hacer, es un projecto de una clase de platzi para ahondar en los fundamentos de React',
+                            imageDesktop: toDoDesktop,
+                            imageMovile: toDoMobile,
+                            tecnologies: [react],
+                            urls: {
+                                repository : 'https://github.com/MaoParadise/toDoInReact',
+                                site : 'https://www.google.com/'
+                            }
                         }
                     }       
                 />
 
-                <PresentationCard />
+                
 
                 <PresentationCard />
             </div>    

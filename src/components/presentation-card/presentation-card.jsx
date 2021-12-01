@@ -12,6 +12,7 @@ const PresentationCard = (props) => {
     
     const { toggleMenu } = useContext(GlobalContext);
     const [version, setVersion] = useState('desktop');
+    console.log(props.props)
     const handleVersion = () => {
         if (version === 'desktop') {
             setVersion('smartphone');
@@ -57,16 +58,36 @@ const PresentationCard = (props) => {
                 :  ''
             }
             <div className="description">
-                <button className='switchButton' onClick={() => handleVersion()} >  { (version === 'desktop')? 'switch to mobile' : 'switch to desktop'} </button>
+                <div className="top-button-description">
+                    
+                    <div className="urls">
+                        <button className='switchButton' onClick={() => handleVersion()} >  { (version === 'desktop')? <div>mobile <i className="far fa-hand-pointer"></i> </div> : <div>desktop <i className="far fa-hand-pointer"></i> </div>} </button>
+                        <a href={(props.props) ? props.props.urls.repository : '/'} className="project-git"> <i class="fab fa-git-alt"></i> </a>
+                        <a href={(props.props) ? props.props.urls.site : '/'} className="project-url"> <i class="fas fa-link"></i> </a>
+                    </div>
+                </div>
                     {(props.props) ?
                          <h4> { props.props.title } </h4>
                         : ''
                     }
                     {(props.props) ?
-                         props.props.description
+                         <p>{props.props.description}</p>
                         : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. At ab a voluptate repudiandae, pariatur dolores vero, tempore minus tempora temporibus consequuntur molestias laboriosam quibusdam ipsum sed iusto dolorem repellendus. Eligendi.'
                     }
-
+                <div className="tecnologies">
+                    {
+                        (props.props) ?
+                        props.props.tecnologies.map((tecnology, index) => {
+                            return (
+                                <div key={index} className="tecnology">
+                                    <i className={tecnology}></i>
+                                </div>
+                            )
+                        }
+                        )
+                        : ''
+                    }
+                </div>
             </div>
             </div>
             

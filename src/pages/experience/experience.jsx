@@ -23,7 +23,7 @@ const Experience = () => {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam error iusto aperiam inventore iure numquam pariatur delectus sequi dolore odit voluptates enim aut voluptas beatae, molestias ut quas nihil at?
                     </p>
-                    <button className='go-button'> Ir </button>
+                    <button className='go-button'> <i class="fas fa-link"></i> </button>
                 </div>
             </div> 
 
@@ -38,7 +38,7 @@ const Experience = () => {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam error iusto aperiam inventore iure numquam pariatur delectus sequi dolore odit voluptates enim aut voluptas beatae, molestias ut quas nihil at?
                     </p>
-                    <button className='go-button'> Ir </button>
+                    <button className='go-button'> <i class="fas fa-link"></i> </button>
                 </div>
             </div> 
 
@@ -53,7 +53,7 @@ const Experience = () => {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam error iusto aperiam inventore iure numquam pariatur delectus sequi dolore odit voluptates enim aut voluptas beatae, molestias ut quas nihil at?
                     </p>
-                    <button className='go-button'> Ir </button>
+                    <button className='go-button'> <i class="fas fa-link"></i> </button>
                 </div>
             </div>
         </div>
