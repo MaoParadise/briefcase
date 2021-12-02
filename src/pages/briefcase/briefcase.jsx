@@ -31,7 +31,7 @@ const Briefcase = () => {
                     props={
                         {
                             title: 'My personal BlackList of LOL', 
-                            description: 'Usando la API de RIOT GAME genere una lista con la gente del servidor de LatinoAmerica Sur que no desearia encontrarme, incluyendo un nivel de toxicidad',
+                            description: 'Usando la API de RIOT GAME generé una lista con la gente del servidor de Latinoamérica Sur que no desearía encontrarme, incluyendo un nivel de toxicidad',
                             imageDesktop: blackListDesktop,
                             imageMovile: blackListMobile,
                             tecnologies: [react, javascript],
@@ -63,7 +63,7 @@ const Briefcase = () => {
                    props={
                     {
                         title: 'Proyecto NeoLoot', 
-                        description: 'Un proyecto personal de un sitio de tecnologia y videojuegos, que consiste en el frontend, backend y una base de datos hecha en mysql jamas llegue a lanzarla por temas personales pero me siempre me senti orgulloso de lo aprendido y el resultado final',
+                        description: 'Un proyecto personal de un sitio noticias de tecnología y videojuegos, que consiste en el frontend, backend y una base de datos hecha en mysql, jamás llegue a lanzarla por temas personales pero siempre me he sentido orgulloso de lo aprendido y el resultado final',
                         imageDesktop: newDesktop,
                         imageMovile: newMobile,
                         tecnologies: [angular, node, bootstrap],
@@ -79,7 +79,7 @@ const Briefcase = () => {
                     props={
                         {
                             title: "TO DO's", 
-                            description: 'Una sencilla SPA para guardar las cosas que quedan por hacer, es un projecto de una clase de platzi para ahondar en los fundamentos de React',
+                            description: 'Una sencilla SPA para guardar las cosas que quedan por hacer, es un proyecto de una clase de platzi para ahondar en los fundamentos de React',
                             imageDesktop: toDoDesktop,
                             imageMovile: toDoMobile,
                             tecnologies: [react],

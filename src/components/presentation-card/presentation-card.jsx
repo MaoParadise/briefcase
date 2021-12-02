@@ -62,8 +62,8 @@ const PresentationCard = (props) => {
                     
                     <div className="urls">
                         <button className='switchButton' onClick={() => handleVersion()} >  { (version === 'desktop')? <div>mobile <i className="far fa-hand-pointer"></i> </div> : <div>desktop <i className="far fa-hand-pointer"></i> </div>} </button>
-                        <a href={(props.props) ? props.props.urls.repository : '/'} className="project-git"> <i class="fab fa-git-alt"></i> </a>
-                        <a href={(props.props) ? props.props.urls.site : '/'} className="project-url"> <i class="fas fa-link"></i> </a>
+                        <a target='_blank' rel="noopener noreferrer"  href={(props.props) ? props.props.urls.repository : '/'} className="project-git"> <i class="fab fa-git-alt"></i> </a>
+                        <a target='_blank' rel="noopener noreferrer"  href={(props.props) ? props.props.urls.site : '/'} className="project-url"> <i class="fas fa-link"></i> </a>
                     </div>
                 </div>
                     {(props.props) ?

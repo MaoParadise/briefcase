@@ -21,7 +21,7 @@ const Experience = () => {
                 </div>
                 <div className="experience-information">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam error iusto aperiam inventore iure numquam pariatur delectus sequi dolore odit voluptates enim aut voluptas beatae, molestias ut quas nihil at?
+                    Hotel Boutique refugió el molle es un hotel ubicado al interior del Valle del Elqui, su principal foco es el turismo, convenciones y eventos. 
                     </p>
                     <button className='go-button'> <i class="fas fa-link"></i> </button>
                 </div>
@@ -36,8 +36,7 @@ const Experience = () => {
                 </div>
                 <div className="experience-information">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam error iusto aperiam inventore iure numquam pariatur delectus sequi dolore odit voluptates enim aut voluptas beatae, molestias ut quas nihil at?
-                    </p>
+                    Home Gestion Inmobiliaria es una empresa de gestión inmobiliaria que se dedica a la venta y alquiler de viviendas de manera local dentro de la cuarta región de Chile.                    </p>
                     <button className='go-button'> <i class="fas fa-link"></i> </button>
                 </div>
             </div> 
@@ -51,7 +50,7 @@ const Experience = () => {
                 </div>
                 <div className="experience-information">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam error iusto aperiam inventore iure numquam pariatur delectus sequi dolore odit voluptates enim aut voluptas beatae, molestias ut quas nihil at?
+                        Home Clean es un servicio de limpieza a domicilio de alfombras y muebles de casa.
                     </p>
                     <button className='go-button'> <i class="fas fa-link"></i> </button>
                 </div>

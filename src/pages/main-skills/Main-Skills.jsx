@@ -93,11 +93,7 @@ const MainSkills = () => {
                 </div>
             </div>
             <div className="clarification">
-                <p> En la presente sección intento de alguna manera cuantificar mis experticias
-                    en las diversas tecnología con las que eh trabajo o aspiro hacerlo, siempre
-                    entendiendo que en una industria tan dinamica como la tecnológica jamás llegamos a conocer 100% de
-                    la mayoría de los temas en constante evolucion. En tal sentido lo mejor que podemos hacer es tratar de acercarnos
-                    al grado de perfección que nos permita desempeñar eficientemente nuestro trabajo. </p>
+                <p> En la presente sección intento de alguna manera cuantificar mis experticias en las diversas tecnologías con las que eh trabajo o aspiro hacerlo, siempre entendiendo que en una industria tan dinámica como la tecnológica jamás llegamos a conocer 100% de la mayoría de los temas en constante evolución. En tal sentido lo mejor que podemos hacer es tratar de acercarnos al grado de perfección que nos permita desempeñar eficientemente nuestro trabajo. </p>
             </div>
 
         </div>

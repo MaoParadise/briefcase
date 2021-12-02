@@ -83,7 +83,8 @@
     font-size: 1.5em;
 }
 
-.where p > i{
+.where p > i,
+.what p > i{
     color: var(--color-primary);
     font-style: normal;
     font-weight: bold;

@@ -25,13 +25,19 @@ const SideRightMenu = () => {
             </p>
             <ul>
                 <li>
-                <i className="fab fa-twitter"></i>
+                <a href='https://twitter.com/MaoParadise' rel="noopener noreferrer" target='_blank' >
+                    <i className='fab fa-twitter'></i>
+                </a>
                 </li>
                 <li>
-                <i className="fab fa-github"></i>
+                    <a href="https://github.com/MaoParadise" rel="noopener noreferrer" target='_blank'>
+                        <i className="fab fa-github"></i>
+                    </a>
                 </li>
                 <li>
-                <i className="fas fa-at"></i>
+                    <a href="mailto:carlos92.pastenbravo@gmail.com" rel="noopener noreferrer" target='_blank'>
+                        <i className="fas fa-at"></i>
+                    </a>
                 </li>
             </ul>
             </section>
