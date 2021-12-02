@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import GlobalContext from '../../contexts/globalContext';
 import useTyped from '../../hooks/useTyped';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/perfil.jpg';
 
 import './side-right-menu.css';
 
