@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/briefcase/static/css/main.8d744bef.chunk.css",
+    "main.js": "/briefcase/static/js/main.ac0a01c5.chunk.js",
+    "main.js.map": "/briefcase/static/js/main.ac0a01c5.chunk.js.map",
+    "runtime-main.js": "/briefcase/static/js/runtime-main.fbd8cd95.js",
+    "runtime-main.js.map": "/briefcase/static/js/runtime-main.fbd8cd95.js.map",
+    "static/js/2.95dc01f5.chunk.js": "/briefcase/static/js/2.95dc01f5.chunk.js",
+    "static/js/2.95dc01f5.chunk.js.map": "/briefcase/static/js/2.95dc01f5.chunk.js.map",
+    "static/js/3.253fb015.chunk.js": "/briefcase/static/js/3.253fb015.chunk.js",
+    "static/js/3.253fb015.chunk.js.map": "/briefcase/static/js/3.253fb015.chunk.js.map",
+    "index.html": "/briefcase/index.html",
+    "static/css/main.8d744bef.chunk.css.map": "/briefcase/static/css/main.8d744bef.chunk.css.map",
+    "static/js/2.95dc01f5.chunk.js.LICENSE.txt": "/briefcase/static/js/2.95dc01f5.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/briefcase/static/media/back.c2d7ee12.png",
+    "static/media/desktop-version1.c7a340b0.png": "/briefcase/static/media/desktop-version1.c7a340b0.png",
+    "static/media/desktop-version1.ea51811d.png": "/briefcase/static/media/desktop-version1.ea51811d.png",
+    "static/media/desktop-version1.ef6e552b.png": "/briefcase/static/media/desktop-version1.ef6e552b.png",
+    "static/media/desktop-version1.fffb9b16.png": "/briefcase/static/media/desktop-version1.fffb9b16.png",
+    "static/media/homeClean.2d6a1aa7.png": "/briefcase/static/media/homeClean.2d6a1aa7.png",
+    "static/media/homegestionInmo.3a56b9c0.png": "/briefcase/static/media/homegestionInmo.3a56b9c0.png",
+    "static/media/movil-version1.67c70fda.png": "/briefcase/static/media/movil-version1.67c70fda.png",
+    "static/media/movil-version1.b552248d.png": "/briefcase/static/media/movil-version1.b552248d.png",
+    "static/media/movil-version1.dfe3600f.png": "/briefcase/static/media/movil-version1.dfe3600f.png",
+    "static/media/movil-version1.ee68e3f6.png": "/briefcase/static/media/movil-version1.ee68e3f6.png",
+    "static/media/perfil.abd8a34e.jpg": "/briefcase/static/media/perfil.abd8a34e.jpg",
+    "static/media/refugioMolle.62637a19.png": "/briefcase/static/media/refugioMolle.62637a19.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbd8cd95.js",
+    "static/js/2.95dc01f5.chunk.js",
+    "static/css/main.8d744bef.chunk.css",
+    "static/js/main.ac0a01c5.chunk.js"
+  ]
+}
