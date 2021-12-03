@@ -81,6 +81,13 @@
     transition: all 0.15s ease-in-out;
 }
 
+.top-button-description .urls .switchButton div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .fa-hand-pointer{
     transform: rotate(45deg) scale(1.5) translateY(-0.4rem);
 }

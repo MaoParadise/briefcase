@@ -23,7 +23,7 @@ const Experience = () => {
                     <p>
                     Hotel Boutique refugió el molle es un hotel ubicado al interior del Valle del Elqui, su principal foco es el turismo, convenciones y eventos. 
                     </p>
-                    <button className='go-button'> <i class="fas fa-link"></i> </button>
+                    <a href='http://www.refugioelmolle.cl/' target='_blank' rel='noreferrer' className='go-button'> <i class="fas fa-link"></i> </a>
                 </div>
             </div> 
 
@@ -37,7 +37,7 @@ const Experience = () => {
                 <div className="experience-information">
                     <p>
                     Home Gestion Inmobiliaria es una empresa de gestión inmobiliaria que se dedica a la venta y alquiler de viviendas de manera local dentro de la cuarta región de Chile.                    </p>
-                    <button className='go-button'> <i class="fas fa-link"></i> </button>
+                    <a href='https://homegestioninmobiliaria.cl/' target='_blank' rel='noreferrer' className='go-button'> <i class="fas fa-link"></i> </a>
                 </div>
             </div> 
 
@@ -52,7 +52,7 @@ const Experience = () => {
                     <p>
                         Home Clean es un servicio de limpieza a domicilio de alfombras y muebles de casa.
                     </p>
-                    <button className='go-button'> <i class="fas fa-link"></i> </button>
+                    <a href='https://homeclean.cl/' target='_blank' rel='noreferrer'  className='go-button'> <i class="fas fa-link"></i> </a>
                 </div>
             </div>
         </div>
