@@ -90,10 +90,6 @@ const Briefcase = () => {
                         }
                     }       
                 />
-
-                
-
-                <PresentationCard />
             </div>    
         </div>
     );
