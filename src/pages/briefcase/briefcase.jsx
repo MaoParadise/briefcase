@@ -53,7 +53,7 @@ const Briefcase = () => {
                             tecnologies: [react, javascript],
                             urls: {
                                 repository : 'https://github.com/MaoParadise/RickAndMortyCharacters',
-                                site : 'https://www.google.com/'
+                                site : 'https://twentyrickandmortyscharacter.netlify.app/'
                             }
                         }
                     }
@@ -69,7 +69,7 @@ const Briefcase = () => {
                         tecnologies: [angular, node, bootstrap],
                         urls: {
                             repository : 'https://github.com/MaoParadise/new-site-frontend',
-                            site : 'https://www.google.com/'
+                            site : 'https://neo-loot-prototype2.netlify.app/'
                         }
                     }
                 } 
