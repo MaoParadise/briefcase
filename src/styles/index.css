@@ -16,7 +16,7 @@
 body {
   overflow-x: hidden;
   background: rgb(38, 38, 38);
-  background-image: url('../assets/Images/back.png');
+  /* background-image: url('../assets/Images/back.png'); */
   background-size: 210% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;

@@ -2,11 +2,9 @@
 import { Main } from '../components/main/Main';
 import GlobalContext from '../contexts/globalContext';
 import { UseThemes } from '../hooks/useThemes';
-import { BrowserRouter} from 'react-router-dom';
 import '../styles/App.css';
 import MainFaq from '../pages/main-faq/Main-Faq';
 import MainSkills from '../pages/main-skills/Main-Skills';
-//import NotFound from '../pages/not-found/Not-Found';
 import Briefcase from '../pages/briefcase/briefcase';
 import Experience from '../pages/experience/experience';
 
@@ -18,12 +16,11 @@ function App() {
           refToScrollSkills,
           refToScrollFaq,
           refToScrollExperience,
-          refToScrollBriefcase
+          refToScrollBriefcase 
   } = UseThemes();
 
   return (
     <div className="App">
-      {/* <Particlesbackground /> */}
       <GlobalContext.Provider
         value={{  toggleMenu,
                   handleToggleMenu,
@@ -33,8 +30,6 @@ function App() {
                   refToScrollExperience,
                   refToScrollBriefcase
               }}>
-        <BrowserRouter>
-          
           <Main>
             <MainFaq />
             <Briefcase />
@@ -42,8 +37,6 @@ function App() {
             <Experience />
           </Main>
             
-          
-        </BrowserRouter>
       </GlobalContext.Provider>
     </div>
   );
