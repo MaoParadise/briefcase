@@ -2,11 +2,12 @@
 import { Main } from '../components/main/Main';
 import GlobalContext from '../contexts/globalContext';
 import { UseThemes } from '../hooks/useThemes';
-import '../styles/App.css';
 import MainFaq from '../pages/main-faq/Main-Faq';
 import MainSkills from '../pages/main-skills/Main-Skills';
 import Briefcase from '../pages/briefcase/briefcase';
 import Experience from '../pages/experience/experience';
+import '../styles/App.css';
+
 
 function App() {
 

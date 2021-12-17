@@ -21,7 +21,7 @@ const Briefcase = () => {
     const react = 'fab fa-react';
     const node = 'fab fa-node-js';
     const javascript = 'fab fa-js';
-    const bootstrap = 'fab fa-bootstrap';
+    const bootstrap = 'fab fa-bootstrap'; 
 
     return (
         <div ref={refToScrollBriefcase} className='briefcase'>
