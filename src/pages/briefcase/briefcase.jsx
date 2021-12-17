@@ -37,7 +37,7 @@ const Briefcase = () => {
                             tecnologies: [react, javascript],
                             urls: {
                                 repository : 'https://github.com/MaoParadise/my-BlackList',
-                                site : 'https://www.google.com/'
+                                site : 'https://maochroniclesblacklist.netlify.app/'
                             }
                         }
                     }
