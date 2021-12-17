@@ -34,7 +34,7 @@ const Briefcase = () => {
                             description: 'Usando la API de RIOT GAME generé una lista con la gente del servidor de Latinoamérica Sur que no desearía encontrarme, incluyendo un nivel de toxicidad',
                             imageDesktop: blackListDesktop,
                             imageMovile: blackListMobile,
-                            tecnologies: [react, javascript],
+                            tecnologies: [react, javascript, node],
                             urls: {
                                 repository : 'https://github.com/MaoParadise/my-BlackList',
                                 site : 'https://maochroniclesblacklist.netlify.app/'
