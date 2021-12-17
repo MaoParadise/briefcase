@@ -85,7 +85,7 @@ const Briefcase = () => {
                             tecnologies: [react],
                             urls: {
                                 repository : 'https://github.com/MaoParadise/toDoInReact',
-                                site : 'https://www.google.com/'
+                                site : 'https://festive-curie-94e359.netlify.app'
                             }
                         }
                     }       
