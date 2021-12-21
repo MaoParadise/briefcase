@@ -39,8 +39,8 @@ const MainSkills = () => {
                 </div>
 
                 <div className="grafic-bar">
-                    <div className="percen"> 55% </div>
-                    <div style={{width: '55%'}} className="bar bar-nodejs">
+                    <div className="percen"> 65% </div>
+                    <div style={{width: '65%'}} className="bar bar-nodejs">
                     </div>
                 </div>
             </div>
