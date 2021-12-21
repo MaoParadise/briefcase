@@ -16,7 +16,7 @@ const useTyped = () => {
                     [#####################] ^1500 <br />
                     <br />
                     Carlos Pasten Bravo. <br />
-                    Desarrollador front-end. <br />
+                    Desarrollador Web. <br />
                     Analista Programador. <br />
                     Cripto entusiasta. <br />
                     viviendo en Chile. <br />
