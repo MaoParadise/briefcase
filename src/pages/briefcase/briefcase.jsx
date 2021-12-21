@@ -10,6 +10,8 @@ import rickAndMortyMobile from '../../assets/Images/RickAndMorty/movil-version1.
 import rickAndMortyDesktop from '../../assets/Images/RickAndMorty/desktop-version1.png';
 import newMobile from '../../assets/Images/news/movil-version1.png';
 import newDesktop from '../../assets/Images/news/desktop-version1.png';
+import shooppingDesktop from '../../assets/Images/shoppingCart/desktop-version1.png';
+import shooppingMobile from '../../assets/Images/shoppingCart/movil-version1.png';
 
 
 
@@ -90,6 +92,23 @@ const Briefcase = () => {
                         }
                     }       
                 />
+
+                <PresentationCard
+                    props={
+                        {
+                            title: "Shooping Cart", 
+                            description: 'Un ejemplo de tienda en línea con carrito de compra de un proceso de selección antiguo que adapte para propósitos generales',
+                            imageDesktop: shooppingDesktop,
+                            imageMovile: shooppingMobile,
+                            tecnologies: [javascript, node],
+                            urls: {
+                                repository : 'https://github.com/MaoParadise/onlineShoppingB',
+                                site : 'https://romantic-heisenberg-14b73f.netlify.app/'
+                            }
+                        }
+                    }       
+                />
+
             </div>    
         </div>
     );
