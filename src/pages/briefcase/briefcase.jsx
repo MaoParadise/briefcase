@@ -12,6 +12,8 @@ import newMobile from '../../assets/Images/news/movil-version1.png';
 import newDesktop from '../../assets/Images/news/desktop-version1.png';
 import shooppingDesktop from '../../assets/Images/shoppingCart/desktop-version1.png';
 import shooppingMobile from '../../assets/Images/shoppingCart/movil-version1.png';
+import coinMarketDesktop from '../../assets/Images/coinMarket/desktop-version1.png';
+import coinMarketMobile from '../../assets/Images/coinMarket/movil-version1.png';
 
 
 
@@ -104,6 +106,22 @@ const Briefcase = () => {
                             urls: {
                                 repository : 'https://github.com/MaoParadise/onlineShoppingB',
                                 site : 'https://romantic-heisenberg-14b73f.netlify.app/'
+                            }
+                        }
+                    }       
+                />
+
+                <PresentationCard
+                    props={
+                        {
+                            title: "Crypto Table", 
+                            description: 'Listado de criptomonedas con su respectiva información, con una API de CoinGecko, muy util para un vistazo rapido y general de las criptomonedas',
+                            imageDesktop: coinMarketDesktop,
+                            imageMovile: coinMarketMobile,
+                            tecnologies: [react, bootstrap],
+                            urls: {
+                                repository : 'https://github.com/MaoParadise/CoinMarketReact',
+                                site : '/'
                             }
                         }
                     }       
