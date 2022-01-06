@@ -121,7 +121,7 @@ const Briefcase = () => {
                             tecnologies: [react, bootstrap],
                             urls: {
                                 repository : 'https://github.com/MaoParadise/CoinMarketReact',
-                                site : '/'
+                                site : 'https://coinmarkett.netlify.app/'
                             }
                         }
                     }       
